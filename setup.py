@@ -16,12 +16,12 @@ if sys.argv[-1] == 'publish':
 
 setup(
 	name='appie',
-	version='0.0.3',
+	version='0.0.4',
 	description='A Python library for the (hidden) AH rest interface',
 	setup_requires=['setuptools-markdown'],
 	install_requires=['requests'],
 	long_description_markdown_filename='README.md',
-	license=open("LICENSE").read(),
+	license="GPL",
 	author="Sander van de Graaf",
 	author_email="mail@svdgraaf.nl",
 	url='https://github.com/svdgraaf/appie',
