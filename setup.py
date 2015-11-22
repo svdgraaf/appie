@@ -16,7 +16,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
 	name='appie',
-	version='0.0.4',
+	version='0.0.5',
 	description='A Python library for the (hidden) AH rest interface',
 	setup_requires=['setuptools-markdown'],
 	install_requires=['requests'],
